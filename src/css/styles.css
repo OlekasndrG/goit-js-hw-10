@@ -18,3 +18,17 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+img {
+  width: 50px;
+}
+p,
+h2,
+h3 {
+  font-size: large;
+  font-weight: 800;
+}
+
+.one__country-card {
+  display: flex;
+}
