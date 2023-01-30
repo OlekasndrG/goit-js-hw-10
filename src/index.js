@@ -2,28 +2,29 @@ import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
 import './css/styles.css';
 import API from './js/fetchCountries.js';
-
+const countryAPI = new API();
 const inputEl = document.querySelector('input#search-box');
 const country = document.querySelector('div.country-info');
-let inputValue = '';
 const DEBOUNCE_DELAY = 300;
 
 inputEl.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
 function onInput(event) {
   event.preventDefault();
-
-  inputValue = event.target.value.trim();
-  API(inputValue)
+  countryAPI.name = event.target.value.trim();
+  // inputValue = event.target.value.trim();
+  countryAPI
+    .fetchCountries()
     .then(answer => {
       if (answer.length === 1) {
+        return createMarkupForOneCountry(answer[0]);
         // return (country.innerHTML = createMarkupForOneCountry(answer));
         // console.log(createMarkupforOneCountry(answer));
         // return createMarkupforOneCountry({name, svg});
-        return answer.reduce(
-          (markup, country) => createMarkupForOneCountry(country) + markup,
-          ''
-        );
+        // return answer.reduce(
+        //   (markup, country) => createMarkupForOneCountry(country) + markup,
+        //   ''
+        // );
       } else if (answer.length >= 2 && answer.length < 10) {
         return answer.reduce(
           (markup, country) => createMarkupformanyCountries(country) + markup,
@@ -66,7 +67,7 @@ function createMarkupForOneCountry({
        
          <p class="country-population">population: ${population} </p>
         <p class="country-languages">languages: ${languages.map(
-          name => name.name
+          country => country.name
         )}</p>
        
     </div>
@@ -78,6 +79,8 @@ function updateCountryList(markup = '') {
 }
 
 function onError(error) {
-  Notiflix.Notify.failure(error);
+  console.error(error);
+
+  // Notiflix.Notify.failure('Oops, there is no country with that name');
   updateCountryList('<p> Articles not found</p>');
 }

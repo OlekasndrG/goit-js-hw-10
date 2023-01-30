@@ -111,7 +111,7 @@
 101C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\canvas-blending.js121436361000000000 0
 94C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\@parcel\transformer-babel\src\utils.js121436361000000000 0
 77C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\utility-types\LICENSE121436361000000000 0
-47C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist133195106506806183 1
+47C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist133195938328087728 1
 106C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\intersectionobserver.js121436361000000000 0
 115C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.umd.js.map121436361000000000 0
 70C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\yaml\util.d.ts121436361000000000 0
@@ -166,7 +166,7 @@
 82C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\source-map-js\CHANGELOG.md121436361000000000 0
 106C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\.bin\node-gyp-build-optional-packages-optional.cmd133191714272063031 0
 118C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages133191714222238789 1
-55C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\src\index.js133195105781069405 0
+55C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\src\index.js133195938326981777 0
 60C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\@swc133191714196513468 1
 86C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\mdn-data\css\types.schema.json121436361000000000 0
 49C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\src\js133191723863284289 1
@@ -180,7 +180,7 @@
 74C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\fill-range\LICENSE121436361000000000 0
 82C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\mdn-data\css\at-rules.json121436361000000000 0
 79C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\@parcel\core\lib\public133191714254055330 1
-67C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\src\js\fetchCountries.js133195106762283656 0
+67C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\src\js\fetchCountries.js133195926817458093 0
 105C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\@parcel\runtime-js\lib\helpers\bundle-manifest.js121436361000000000 0
 100C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\utility-types\dist\functional-helpers.js.map121436361000000000 0
 71C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\lmdb-darwin-x64133191714236753879 1
@@ -575,7 +575,7 @@
 87C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\regions\SN.js121436361000000000 0
 66C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\parse-json133191714219799747 1
 80C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\lmdb-linux-x64\README.md121436361000000000 0
-65C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.975ef6c8.js133195105880859664 0
+65C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.975ef6c8.js133195938328027720 0
 78C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\js-tokens\package.json131616136860000000 0
 95C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\@parcel\transformer-babel\src\config.js121436361000000000 0
 65C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\path-type133191714220679707 1
@@ -1192,7 +1192,7 @@
 101C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\node-gyp-build-optional-packages\package.json121436361000000000 0
 84C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\posthtml-render\changelog.md121436361000000000 0
 98C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\terser\node_modules\commander\package.json121436361000000000 0
-70C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.77a9bc14.css.map133195106506726417 0
+70C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.77a9bc14.css.map133195937449267477 0
 73C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\mdn-data\index.js121436361000000000 0
 95C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\terser\node_modules\commander\Readme.md121436361000000000 0
 100C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\@parcel\reporter-dev-server\src\HMRServer.js121436361000000000 0
@@ -4059,7 +4059,7 @@
 99C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\server-timing.js121436361000000000 0
 95C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\shadowdom.js121436361000000000 0
 97C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\shadowdomv1.js121436361000000000 0
-66C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.77a9bc14.css133195106506646327 0
+66C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.77a9bc14.css133195937449257498 0
 103C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\sharedarraybuffer.js121436361000000000 0
 89C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\sni.js121436361000000000 0
 102C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\caniuse-lite\data\features\speech-synthesis.js121436361000000000 0
@@ -5143,8 +5143,8 @@
 69C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\.bin\svgo.ps1133191714272093031 0
 67C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\.bin\terser133191714272093031 0
 71C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\node_modules\.bin\terser.ps1133191714272093031 0
-69C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.975ef6c8.js.map133195105881019558 0
-58C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.html133195102767336389 0
+69C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.975ef6c8.js.map133195938328067694 0
+58C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\dist\index.html133195937449317484 0
 75C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\assets\actions-config-step-1.png133178240737780309 0
 75C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\assets\actions-config-step-2.png133178240737780309 0
 67C:\Users\HP\Desktop\IT Y4eba\goit-js-hw-10\assets\repo-settings.png133178240738008745 0
