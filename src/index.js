@@ -4,11 +4,9 @@ import './css/styles.css';
 import API from './js/fetchCountries.js';
 
 const inputEl = document.querySelector('input#search-box');
-// const fullCOuntryList = document.querySelector('ul.country-list');
 const country = document.querySelector('div.country-info');
 let inputValue = '';
 const DEBOUNCE_DELAY = 300;
-// let inputValue = '';
 
 inputEl.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
@@ -40,9 +38,6 @@ function onInput(event) {
     .then(updateCountryList)
     .catch(onError);
 }
-// console.log(API('peru'));
-// API(inputValue);
-
 function createMarkupformanyCountries({ name, flags }) {
   return `
     <div class="one__country-card">
@@ -82,17 +77,7 @@ function updateCountryList(markup = '') {
   country.innerHTML = markup;
 }
 
-// function check(length) {
-//   if (a.length === 1) {
-//     return createMarkup();
-//   } else if (a.length >= 2 && a.length < 10) {
-//     return 4;
-//   } else if (a.length >= 10) {
-//     return alert('too many');
-//   } else return alert('bad request');
-// }
-
 function onError(error) {
-  // Notiflix.Notify.failure(error);
+  Notiflix.Notify.failure(error);
   updateCountryList('<p> Articles not found</p>');
 }
